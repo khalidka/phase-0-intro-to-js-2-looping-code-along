@@ -70,7 +70,13 @@ for (let countup = 0; countup < 10; countup++) {
  */
 // Assignment for while loop.
 
-let countDown = 10;
-while (countDown >= 0) {
-  console.log(countDown--);
+function countDown(){
+  let countDown = 10
+  while (countDown >= 0) {
+    console.log(countDown--);
+    
+  }
+  return countDown;
 }
+
+console.log(countDown());
